@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hang Man</title>
+    <link rel="stylesheet" href="hang_man_styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+
+
+        <div class="hang_man active">
+            <div class="navigation_bar active">
+                <div class="nav_bar">
+                    <div class="name">
+                        <span>SH Technology</span>
+                    </div>
+
+                    <div class="other">
+                        <div class="other_itm">
+                            <ul>
+                               <span><li>Games</li></span>
+                                <li>Help</li>
+                                <li>How To Play</li>
+                            </ul>
+                        </div>
+
+                        <div class="profile_section">
+                            <div class="profile_pic">
+                                <figure>
+                                    <img src="images/default.jpeg" alt="" width="95px" height="90px" class="profile_image">
+                                </figure>
+                            </div>
+
+                            <div class="name_section">
+                                <span class="user_name">G.S.H Gamage</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hang_man_body">
+
+
+
+                <div class="img_and_marks">
+
+                    <div class="hang_man_image">
+                        <figure>
+                            <img src="images/0.jpg" alt="" height="280px" class="hang_man_images">
+                        </figure>
+                    </div>
+    
+                    <div class="number_of_chanceses">
+                        <span>Wrong Guesses : <span class="mistakes"></span> of <span class="maxximum"></span></span>
+                    </div>
+
+                    <div class="scores">
+
+                        <div class="marks">
+
+                            <div class="percentage_marks">13%</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="quections">
+                    <div class="quection">
+                        <span class="quec">What is the Most Popular Programming Language : </span>
+                    </div>
+                    <div class="dash_and_answer">
+                        <span class="dash">_ _ _ _ _ _ _ _ _</span>
+                    </div>
+                </div>
+
+
+                <div class="outer">
+
+                    <div class="key_bord active">
+
+
+                        <div class="first_row"></div>
+                        <div class="secound_row"></div>
+                        <div class="third_row"></div>
+    
+                    </div>
+
+                </div>
+
+
+                <div class="align_btn">
+
+                    <div class="play_again_btn active">
+
+                        <button class="exit_btn">Exit</button>
+                        <button class="play_again">Play Again</button>
+    
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="pop_up">
+
+
+
+                <div class="pop_up_details">
+                    <div class="pop_name">
+
+                        <div class="ite">
+                            <div class="pop_image">
+                                <figure>
+                                    <img src="images/DMIh.gif" alt="" width="120px" height="120px">
+                                </figure>
+                            </div>
+    
+                            <div class="close_btn">
+                                <span class="close_win">&#10006;</span>
+                            </div>
+    
+                        </div>
+
+                    </div>
+
+
+                    <div class="name_main">
+                        <span>Play Hang Man</span>
+                    </div>
+
+                    <div class="form_section">
+                        <div class="name">
+                            <span>Name :</span>
+                            <input type="text" placeholder="Enter Your Name" class="name_input">
+                            <span class="name_error"></span>
+                        </div>
+
+                        <div class="name">
+                            <span>Email :</span>
+                            <input type="text" placeholder="Enter Your Email" class="email_input">
+                            <span class="email_error"></span>
+                        </div>
+
+                        <div class="name">
+                            <span>Gender :</span>
+                            <div class="male_or_female">
+
+                                <div class="male">
+                                    <input type="radio" name="gender" value="male">Male
+                                </div>
+
+                                <div class="female">
+                                    <input type="radio" name="gender" value="female">Female
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="button_section">
+
+                        <div class="submit_btn">
+                            <button class="play_btn">Play</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--             <div class="marks">
+
+                <div class="percentage_marks">13%</div>
+            </div>
+
+ -->
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="button-wrapper">
+<!--         <button class="confetti-button">Yay🎉</button> -->
+    </div>
+
+    <div class="button-wrapper_1">
+<!--         <button class="confetti-button_1">Yay🎉</button> -->
+    </div> 
+
+
+
+    <script src="hang_man.js"></script>
+
+</body>
+</html>
