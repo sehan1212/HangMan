@@ -1,0 +1,2 @@
+# HangMan
+Simple Javascript Game
